@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* -------------------------------- */
+
+body{
+    margin: 0;
+
+    background-color: #FFD8A7;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.Container{
+    width: 400px;
+    height: 500px;
+    margin: 20px auto;
+
+    color: whitesmoke;
+    background-color: #74B294;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 40px;
+}
+
+.Container__resultMatch{
+    margin: 0;
+    padding-top: 10px;
+
+    font-size: 20px;
+}
+
+
+/* -------- IMAGES -------- */
+.Container img{
+    width: 100px;
+}
+
+.Container__image{
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 100%;
+    background-color: rgba(255, 190, 167,1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -------- BUTTONS -------- */
+.Container__menu{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.Container__button{
+    width: 100px;
+    line-height: 30px;
+
+    font-size: 16px;
+
+    border: solid;
+    border-radius: 10px;
+    outline: none;
+
+    color: whitesmoke;
+    background-color: transparent;
+    box-shadow: 7px 7px 0 #28526E;
+    transition: 1s box-shadow;
+}
+
+.Container__button:nth-child(2){
+    margin: 0 20px;
+}
+
+.Container__button:hover{
+    box-shadow: none;
+}
+
+.Container__button:active{
+    background-color: #277751;
+}
